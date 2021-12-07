@@ -4,13 +4,13 @@ console.log('Inicio de programa');
 console.time('inicio');
 
 
-getUsuario( 1, ( usuario ) => {
-    console.log('Usuario 1:', usuario );
+getUsuario(1, (usuario) => {
+    console.log('Usuario 1:', usuario);
 });
 
 
-getUsuario( 2, ( usuario) => {
-    console.log('Usuario 2:', usuario );
+getUsuario(2, (usuario) => {
+    console.log('Usuario 2:', usuario);
     console.timeEnd('inicio');
 });
 
